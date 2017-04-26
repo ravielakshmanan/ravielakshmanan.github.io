@@ -1,4 +1,4 @@
 <?php
-    mail('rl2857@columbia.edu', $_POST['subject'], $_POST['message']);
+    mail('rl2857@columbia.edu', $_POST['name'], $_POST['email'], $_POST['message']);
 ?>
-<p>Your email has been sent.</p>
+<p>Success! Your email has been sent.</p>
